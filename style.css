@@ -1,12 +1,6 @@
-/* 
-
-
-*/
-
-
 *{
     overflow: hidden;
-    font-family: 'DejaVuSans ExtraLight' ;
+    font-family: 'DejaVuSans' ;
 }
 
 /* css for mobile and all  */
@@ -21,6 +15,36 @@ body{
 .container{
     width: 900px;
 }
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo__title{
+}
+
+.logo__title__par-1{
+    font-family: 'DejaVuSans ExtraLight';
+    display: block;
+}
+
+.logo-img{
+
+    height: 38px;
+    width: 40px;
+    background-color: green;
+}
+.logo__number {
+    font-family: 'DejaVuSans Bold';
+    font-size: 44px;
+}
+
+.logo__number > span {
+  
+}
+
+
 
 /* xs */
 @media (min-width: 475px) {
@@ -62,11 +86,4 @@ body{
     body{
         background-color: rgb(228, 7, 210);
     }
-}
-
-@font-face {
-    font-family: 'DejaVuSans ExtraLight';
-    src: url('/fonts/DejaVuSans-ExtraLight.ttf');
-    font-weight: normal;
-    font-style: normal;
 }

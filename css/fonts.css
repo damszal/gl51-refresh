@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'DejaVuSans';
+    src: url('/fonts/DejaVuSans.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVuSans ExtraLight';
+    src: url('/fonts/DejaVuSans-ExtraLight.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSans Condensed';
+    src: url('/fonts/DejaVuSansCondensed.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVuSans Bold';
+    src: url('/fonts/DejaVuSans-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSans Condensed Bold';
+    src: url('/fonts/DejaVuSansCondensed-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
