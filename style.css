@@ -1,0 +1,67 @@
+/* 
+=> ustawić BP dla kontenera, nie w pikselach
+=> mediaQ czy container?
+
+*/
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    background-color: #ff0000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 900px;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    body{
+        background-color: black;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    body{
+        background-color: rgb(62, 62, 62);
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    body{
+        background-color: rgb(123, 112, 51);
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    body{
+        background-color: rgb(21, 66, 214);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    body{
+        background-color: rgb(43, 203, 22);
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    body{
+        background-color: rgb(228, 7, 210);
+    }
+}
