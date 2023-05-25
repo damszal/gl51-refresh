@@ -82,7 +82,12 @@ img {
   
 }
 
-
+.navigation-manu div:hover {
+    background-color:#cbcccc;
+    transition: 0.5s;
+    cursor:pointer;
+    
+}
 
 /* xs */
 @media (min-width: 475px) {
